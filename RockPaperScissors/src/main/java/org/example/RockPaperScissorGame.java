@@ -54,10 +54,10 @@ public class RockPaperScissorGame {
     {
         if(score>=2)
         {
-            System.out.println("you win ");//+(3-score)+"-"+score);
+            System.out.println("you win "+(3-score)+"-"+score);
         }
         else{
-            System.out.println("you lose ");//+(4-score)+"-"+score);
+            System.out.println("you lose "+(4-score)+"-"+score);
         }
     }
 
