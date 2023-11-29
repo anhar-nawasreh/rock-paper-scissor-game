@@ -33,14 +33,14 @@ public class RockPaperScissorGame {
         {
             score++;
         }
-      //  printMoves(OPTIONS.get(computerOption),OPTIONS.get(indexOfOption));
+        printMoves(OPTIONS.get(computerOption),OPTIONS.get(indexOfOption));
 
     }
-    /*private void printMoves(String computerMove, String userMove)
+    private void printMoves(String computerMove, String userMove)
     {
         System.out.println("computer : "+computerMove+"\n"+playerName+
                            " : "+userMove );
-    }*/
+    }
 
     public static void printOptions()
     {
