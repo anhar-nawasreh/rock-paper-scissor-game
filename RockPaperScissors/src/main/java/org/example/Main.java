@@ -19,7 +19,7 @@ public class Main {
 
             int userOption=scanner.nextInt();
 
-      //      rockPaperScissorGame.play(userOption);
+           rockPaperScissorGame.play(userOption);
 
 
         }
