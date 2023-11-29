@@ -9,7 +9,7 @@ public class Main {
         System.out.println("please enter your name");
         String name=scanner.next();
         RockPaperScissorGame rockPaperScissorGame=new RockPaperScissorGame(name);
-        System.out.println("you will have three rounds with computer ,"+name);
+        System.out.println("you will have three rounds with computer , "+name);
 
         for (int i = 1; i <= 3; i++) {
 
